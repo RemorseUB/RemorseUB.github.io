@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remorse Page</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full-page background with fading effect */
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom, #000, #fff);
+            text-align: center;
+            color: #333;
+        }
+
+        /* Centered text */
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Button Style */
+        .color-button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border: 2px solid #333;
+            background-color: #fff;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .color-button:active {
+            transform: scale(0.95);
+        }
+
+        .color-button.clicked {
+            background-color: #333;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>This is Remorse Ub</h1>
+        <button class="color-button" onclick="changeColor(this)">Click Me</button>
+    </div>
+
+    <script>
+        // Function to change button color when clicked
+        function changeColor(button) {
+            button.classList.toggle('clicked');
+        }
+    </script>
+
+</body>
+</html>
