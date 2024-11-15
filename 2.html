@@ -32,41 +32,32 @@
             margin-bottom: 20px;
         }
 
-        /* Button Style */
-        .color-button {
-            padding: 15px 30px;
-            font-size: 1.2em;
-            cursor: pointer;
-            border: 2px solid #333;
-            background-color: #fff;
-            color: #333;
-            transition: all 0.3s ease;
-        }
-
-        .color-button:active {
-            transform: scale(0.95);
-        }
-
-        .color-button.clicked {
-            background-color: #333;
-            color: #fff;
-        }
-
+           .button {
+        padding: 10px 20px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .button:hover {
+        background-color: darkblue;
+    }
     </style>
 </head>
 <body>
 
     <div>
         <h1>This is Remorse Ub</h1>
-        <button class="color-button" onclick="changeColor(this)">Click Me</button>
+<a href="/movie page.html" class="button">movies</a>
+<a href="/movie page.html" class="button">movies</a>
+<a href="/movie page.html" class="button">movies</a>
+<a href="/movie page.html" class="button">movies</a>
+<a href="/movie page.html" class="button">movies</a>
+<a href="/movie page.html" class="button">movies</a> 
     </div>
 
-    <script>
-        // Function to change button color when clicked
-        function changeColor(button) {
-            button.classList.toggle('clicked');
-        }
-    </script>
+
 
 </body>
 </html>
