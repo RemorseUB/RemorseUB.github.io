@@ -10,7 +10,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     // Check if the entered password is correct
     if (password === correctPassword) {
         // Redirect to another website if the password is correct
-        window.location.href = 'https://xeenoub.github.io';
+        window.location.href = '/2.html';
     } else {
         // Show an alert if the password is incorrect
         alert('Invalid password. Please try again.');
