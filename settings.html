@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="movies.html">Movies</a>
+        <a href="settings.html">Settings</a>
+        <a href="search.html">Search</a>
+    </nav>
+    <main>
+        <h1>Settings</h1>
+        <p>Change the background color of the entire site:</p>
+        <label for="bg-color">Select a color:</label>
+        <select id="bg-color" onchange="changeBackground(this.value)">
+            <option value="#565656">Default</option>
+            <option value="#ffcccc">Light Red</option>
+            <option value="#ccffcc">Light Green</option>
+            <option value="#ccccff">Light Blue</option>
+            <option value="#222">Dark</option>
+        </select>
+    </main>
+</body>
+</html>
