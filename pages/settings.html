@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div id="particles-home"></div>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/pages/games.html">Games</a>
+        <a href="/pages/methods.html">Methods</a>
+        <a href="/pages/settings.html">Settings</a>
+        <a href="/pages/search.html">Search</a>
+    </nav>
+    <main>
+        <h1>Settings</h1>
+        <div class="settings-container">
+            <p>Change the background color of the entire site:</p>
+            <label for="bg-color">Select a color:</label>
+            <select id="bg-color" onchange="changeBackground(this.value)">
+                <option value="#fff">Default</option>
+                <option value="#ffcccc">Light Red</option>
+                <option value="#ccffcc">Light Green</option>
+                <option value="#ccccff">Light Blue</option>
+                <option value="#222">Dark</option>
+                <option value="#f4f4f4">Light Grey</option>
+                <option value="#ffd700">Gold</option>
+                <option value="#ffa500">Orange</option>
+                <option value="#ff69b4">Hot Pink</option>
+                <option value="#8a2be2">Purple</option>
+                <option value="#00ced1">Turquoise</option>
+                <option value="#90ee90">Pale Green</option>
+                <option value="#add8e6">Light Sky Blue</option>
+                <option value="#778899">Slate Gray</option>
+                <option value="#deb887">Burlywood</option>
+                <option value="#d2691e">Chocolate</option>
+            </select>
+        </div>
+        <div class="settings-container">
+            <p> test:</p>
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
