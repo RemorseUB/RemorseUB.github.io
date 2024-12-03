@@ -196,3 +196,39 @@ select:hover {
     margin: 20px auto;
     background-color: #fff;
 }
+ 
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: gray;
+}
